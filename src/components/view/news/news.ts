@@ -14,6 +14,7 @@ export default class News {
 
         news.forEach((item: NewsItem, idx: number) => {
             const newsClone = newsItemTemp.content.cloneNode(true) as DocumentFragment;
+
             const newsItem = newsClone.querySelector('.news__item');
             if (newsItem && idx % 2 === 1) {
                 newsItem.classList.add('alt');

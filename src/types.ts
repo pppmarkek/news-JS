@@ -1,6 +1,7 @@
 export enum Endpoints {
     Sources = 'sources',
     Everything = 'everything',
+    TopHeadlines = 'top-headlines',
 }
 
 export type HttpMethod = 'GET' | 'POST';
